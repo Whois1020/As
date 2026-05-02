@@ -15,9 +15,9 @@ let handlerLista = async (m, { conn }) => {
   const lista = JSON.parse(fs.readFileSync(listaPath, 'utf-8'))
 
   let texto = `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮\n`
-  texto += `┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐋𝐈𝐒𝐓𝐀 𝟏𝟐𝐯𝐬𝟏𝟐*\n`
+  texto += `┃  ✨ *Gengar Bot Lista 12Vs12*\n`
   texto += `┃\n`
-  texto += `┃ 👑 *ᴛɪᴛᴜʟᴀʀᴇs:*\n`
+  texto += `┃ 👑 *Titulares:*\n`
 
   if (lista.titulares.length === 0) {
     texto += `┃  (vacío)\n`
@@ -28,7 +28,7 @@ let handlerLista = async (m, { conn }) => {
   }
 
   texto += `┃\n`
-  texto += `┃ 🛡️ *sᴜᴘʟᴇɴᴛᴇs:*\n`
+  texto += `┃ 🛡️ *Suplentes:*\n`
 
   if (lista.suplentes.length === 0) {
     texto += `┃  (vacío)\n`
@@ -40,7 +40,7 @@ let handlerLista = async (m, { conn }) => {
 
   texto += `┃\n`
   texto += `╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯\n`
-  texto += `*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`
+  texto += `*By Whois Developer • Gengar Bot*`
 
   await conn.sendMessage(m.chat, { text: texto.trim() }, { quoted: m })
 }
