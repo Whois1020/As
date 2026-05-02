@@ -30,7 +30,7 @@ let handler = async (m, { isPrems, conn, }) => {
 ⚔ ➺.20𝘷𝘴20 
 ⚔ ➺.24𝘷𝘴24 
 
-🔗 [canal oficial](https://whatsapp.com/channel/0029Vb8kvXUBfxnzYWsbS81I)`;
+🔗 [canal oficial](https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m)`;
 
   const fkontak = {
     "key": {
