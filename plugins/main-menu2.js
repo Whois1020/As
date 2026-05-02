@@ -4,10 +4,9 @@ const handler = async (m, { conn }) => {
 
   const texto = `
 ╭╾━━━━╼ 〔 🎵 〕 ╾━━━━╼╮
-┃  ⚡ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐀𝐔𝐃𝐈𝐎𝐒*
+┃  ⚡ *Gengar Bot Audio*
 ┃
-┃  🚀 *𝐒𝐨𝐮𝐧𝐝𝐛𝐨𝐚𝐫𝐝 𝐒𝐲𝐬𝐭𝐞𝐦*
-┃  ✨ *𝐁𝐲 𝐃𝐢𝐝𝐢𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬*
+┃  ✨ *Bye Whois Developer*
 ┃
 ┃  *ᴍᴇᴍᴇs ʏ ғʀᴀsᴇs:*
 ┃  ◦ _El Pepe, Basado, Potasio_
@@ -38,7 +37,7 @@ const handler = async (m, { conn }) => {
 ┃  _del audio para reproducirlo._
 ┃
 ╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯
-*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`.trim()
+*By Whois Developer • GengarBot*`.trim()
 
   await conn.sendMessage(m.chat, { 
     image: { url: img }, 
