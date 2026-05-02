@@ -6,11 +6,11 @@ let chat = global.db.data.chats[m.chat]
 if (chat) chat.welcome = false
 
 let despedida = `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮\n`
-despedida += `┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*\n`
+despedida += `┃  ✨ *Gengar Bot*\n`
 despedida += `╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯\n\n`
-despedida += `📢 *𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐂𝐈𝐎́𝐍:* El Bot abandonará este grupo.\n\n`
+despedida += `📢 *Notificación:* El Bot abandonará este grupo.\n\n`
 despedida += `Fue un placer servirles. ¡Hasta la próxima! ✌️\n\n`
-despedida += `*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`
+despedida += `*By Whois Developer • Gengar Bot*`
 
 await conn.reply(id, despedida, m) 
 await conn.groupLeave(id)
