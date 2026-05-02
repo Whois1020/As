@@ -18,7 +18,7 @@ handler.before = async function (m, { conn, participants, groupMetadata}) {
         },
         message: {
             locationMessage: {
-                name: "*𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 ⚡*",
+                name: "*Gengar Bot ⚡*",
                 jpegThumbnail: await (await fetch('https://files.catbox.moe/1j784p.jpg')).buffer(),
                 vcard:
                     "BEGIN:VCARD\n" +
@@ -30,7 +30,7 @@ handler.before = async function (m, { conn, participants, groupMetadata}) {
                     "item1.TEL;waid=19709001746:+1 (970) 900-1746\n" +
                     "item1.X-ABLabel:Didier\n" +
                     "X-WA-BIZ-DESCRIPTION:🚀 Notificador oficial de actividad grupal.\n" +
-                    "X-WA-BIZ-NAME:𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓\n" +
+                    "X-WA-BIZ-NAME:Gengar Bot\n" +
                     "END:VCARD"
             }
         },
@@ -39,7 +39,7 @@ handler.before = async function (m, { conn, participants, groupMetadata}) {
 
     let chat = global.db.data.chats[m.chat]
     let usuario = `@${m.sender.split`@`[0]}`
-    let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || 'https://files.catbox.moe/xr2m6u.jpg'
+    let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || 'https://files.catbox.moe/2l8ad9.jpeg
 
     // Mensajes de detección en español
     let nombre = `✨ ${usuario} *ha cambiado el nombre del grupo* ✨\n\n> 📝 *Nuevo nombre:* _${m.messageStubParameters[0]}_`
