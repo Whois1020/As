@@ -16,14 +16,14 @@ const saludarSegunHora = () => {
 };
 
 // Imagen Actualizada y Diseño Didier Bot
-const imgDidier = 'https://files.catbox.moe/dpofx7.jpg';
+const imgDidier = 'https://files.catbox.moe/2l8ad9.jpeg';
 const borderTop = '╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮';
 const borderBottom = '╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯';
 
 const menuFooter = `
 ${borderTop}
-┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐒𝐘𝐒𝐓𝐄𝐌*
-┃  🛠️ *By Didier Developers*
+┃  ✨ *Gengar Bot Oficial*
+┃  🛠️ *By Whois Developer*
 ┃  ⚡ *Power & Speed*
 ${borderBottom}
 `.trim();
@@ -54,7 +54,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     }
 
     const fkontak = {
-      key: { participants: "0@s.whatsapp.net", fromMe: false, id: "DidierBot" },
+      key: { participants: "0@s.whatsapp.net", fromMe: false, id: "GengarBot" },
       message: {
         locationMessage: {
           name: adText,
@@ -94,7 +94,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ${saludo} ${tagUsuario} ✨
 
 ${borderTop}
-┃  ⚡ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐌𝐄𝐍𝐔*
+┃  ⚡ *Gengar Bot Menu*
 ┃  👤 *Usuario:* ${userName}
 ┃  📈 *Nivel:* ${level}
 ┃  ✨ *Exp:* ${exp - min}/${xp}
