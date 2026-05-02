@@ -43,7 +43,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     const tagUsuario = `@${m.sender.split('@')[0]}`;
     const userName = (await conn.getName?.(m.sender)) || tagUsuario;
 
-    const adText = ["Gengar System", "Interface V3", "Cyber Bot"].getRandom();
+    const adText = ["Gengar System", "Gengar V2", "Gengar Bot"].getRandom();
 
     let thumbnailBuffer;
     try {
