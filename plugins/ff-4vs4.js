@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 let handler = async (m, { conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*\n\n⚠️ Por favor, ingresa el horario del reto.\n*Ejemplo:* ${usedPrefix + command} 7:00 PM`
+  if (!args[0]) throw `✨ *Gengar Bot*\n\n⚠️ Por favor, ingresa el horario del reto.\n*Ejemplo:* ${usedPrefix + command} 7:00 PM`
 
   const fkontak = {
     key: {
@@ -14,8 +14,8 @@ let handler = async (m, { conn, args, command, usedPrefix}) => {
     },
     message: {
       locationMessage: {
-        name: '⚡ INVOCACIÓN | 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓',
-        jpegThumbnail: await (await fetch('https://files.catbox.moe/1j784p.jpg')).buffer(),
+        name: '⚡ INVOCACIÓN | GENGAR BOT',
+        jpegThumbnail: await (await fetch('https://files.catbox.moe/2l8ad9.jpeg')).buffer(),
         vcard:
           'BEGIN:VCARD\n' +
           'VERSION:3.0\n' +
@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, command, usedPrefix}) => {
           'TITLE:\n' +
           'item1.TEL;waid=19709001746:+1 (970) 900-1746\n' +
           'item1.X-ABLabel:Didier\n' +
-          'X-WA-BIZ-DESCRIPTION:Reto organizado vía 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 ✨\n' +
+          'X-WA-BIZ-DESCRIPTION:Reto organizado vía Gengar bot ✨\n' +
           'X-WA-BIZ-NAME:Didier\n' +
           'END:VCARD'
       }
@@ -33,18 +33,17 @@ let handler = async (m, { conn, args, command, usedPrefix}) => {
   }
 
   await conn.sendMessage(m.chat, {
-    text: '🎯 *¡Reto 4vs4 detectado por Didier Bot!*',
+    text: '🎯 *¡Reto 4vs4 detectado por Gengar Bot!*',
   }, { quoted: fkontak })
 
   // Mensaje visual principal
   await conn.sendMessage(m.chat, {
     image: { url: 'https://files.catbox.moe/1j784p.jpg'},
     caption: `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮
-┃  🔥 *𝟒 𝐕𝐒 𝟒 | 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*
+┃  🔥 *4 vs 4| GENGAR Bot*
 ┃
 ┃ ⏳ *ʜᴏʀᴀʀɪᴏ:*
-┃ 🇲🇽 MÉXICO: ${args[0]}
-┃ 🇨🇴 COLOMBIA: ${args[0]}
+┃ 🇵🇪 Perú: ${args[0]}
 ┃
 ┃ 🎮 *ᴍᴏᴅᴀʟɪᴅᴀᴅ:*
 ┃ 👥 *ᴊᴜɢᴀᴅᴏʀᴇs:*
@@ -59,7 +58,7 @@ let handler = async (m, { conn, args, command, usedPrefix}) => {
 ┃   🥷🏻 • 
 ┃   🥷🏻 • 
 ╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯
-*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`,
+*By Whois Developer • Gengar Bot*`,
     mentions: []
   }, { quoted: fkontak })
 }
