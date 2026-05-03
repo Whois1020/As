@@ -1,14 +1,18 @@
-export default {
-  command: ['restart'],
-  category: 'mod',
-  isOwner: true,
-  run: async (client, m) => {
-    await client.reply(m.chat, `💙 Reiniciando el bot.\n> *Espere un momento...*`, m, global.miku)
-    setTimeout(() => {
-    if (process.send) {
-    process.send("restart")
-    } else {
-    process.exit(0)
-    }}, 3000)
-  },
-};
+import { spawn } from 'child_process'
+
+var handler = async (m, { conn, isROwner, text }) => {
+
+if (!process.send) throw 'Dont: node mini.js\nDo: node index.js'
+if (conn.user.jid == conn.user.jid) {
+await conn.reply(m.chat, '🤍 *R E I N I C I A N D O* ', m, rcanal, )
+process.send('reset')
+} else throw 'eh'
+
+}
+handler.help = ['restart']
+handler.tags = ['owner']
+handler.command = ['restart','reiniciar'] 
+
+handler.rowner = true
+
+export default handler
