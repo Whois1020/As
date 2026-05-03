@@ -18,5 +18,6 @@ handler.help = ['banearbot']
 handler.tags = ['group']
 handler.command = ['banearbot', 'banchat']
 handler.group = true 
+handler.admin = true
 
 export default handler
