@@ -24,7 +24,7 @@ let handler = async (m, { conn, prefix, command }) => {
 ┃
 ┃ ⚙️ *Método:* iHancer AI
 ┃ 🔝 *Calidad:* High Max
-┃ 🔥 *By:* Didier Developers
+┃ 🔥 *By:* Whois Developer
 ╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯
 *Power & Speed Style*`;
 
