@@ -20,7 +20,7 @@ let handler = async (m, { conn, prefix, command }) => {
     const enhancedBuffer = await ihancer(media, { method: 1, size: 'high' });
 
     const caption = `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮
-┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐇𝐃*
+┃  ✨ *𝐇𝐃*
 ┃
 ┃ ⚙️ *Método:* iHancer AI
 ┃ 🔝 *Calidad:* High Max
