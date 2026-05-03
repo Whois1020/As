@@ -1,12 +1,12 @@
 import axios from 'axios'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-  if (!args[0]) throw `✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*\n\n⚠️ Por favor, ingresa el horario del reto.\n*Ejemplo:* ${usedPrefix + command} 8:00 PM`
+  if (!args[0]) throw `✨ *Gengar Bot*\n\n⚠️ Por favor, ingresa el horario del reto.\n*Ejemplo:* ${usedPrefix + command} 8:00 PM`
 
   const encabezados = [
-    "⚡ 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 | BATTLE 16x16",
-    "🚀 DIDIER SYSTEM | RETO ACTIVADO",
-    "✨ DIDIER DEVELOPERS - VS"
+    "⚡ Gengar Bot| BATTLE 16x16",
+    "🚀 GENGAR SYSTEM | RETO ACTIVADO",
+    "✨ WHOIS DEVELOPER - VS"
   ]
   
   // Puedes cambiar estas URLs por imágenes que prefieras para el mini-miniatura (vcard)
@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       orderMessage: {
         itemCount: 16,
         message: titulo,
-        footerText: "𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 • 𝐁𝐲 𝐃𝐢𝐝𝐢𝐞𝐫",
+        footerText: "GENGAR BOT• BY WHOIS",
         thumbnail: thumbnail,
         surface: 2,
         sellerJid: "0@s.whatsapp.net"
@@ -44,11 +44,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   await conn.sendMessage(m.chat, {
     image: { url: 'https://files.catbox.moe/1j784p.jpg'}, // Imagen principal del reto
     caption: `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮
-┃  🔥 *𝟏𝟔 𝐕𝐒 𝟏𝟔 | 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*
+┃  🔥 *16 VS 16 | GENGAR BOT*
 ┃
 ┃ ⏳ *ʜᴏʀᴀʀɪᴏ:*
-┃ 🇲🇽 MÉXICO: ${args[0]}
-┃ 🇨🇴 COLOMBIA: ${args[0]}
+┃ 🇵🇪 Peru: ${args[0]}
+┃ 🇦🇷 Argentina: ${args[0]}
 ┃
 ┃ 🎮 *ᴍᴏᴅᴀʟɪᴅᴀᴅ:*
 ┃ 👥 *ᴊᴜɢᴀᴅᴏʀᴇs:*
@@ -81,7 +81,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ┃   🥷🏻 • 
 ┃   🥷🏻 • 
 ╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯
-*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`,
+*By Whois Developers • GENGAR BOT*`,
     mentions: []
   }, { quoted: izumi })
 }
