@@ -9,9 +9,9 @@ import axios from 'axios'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
   global.owner = [
-  [ '51936994155', 'eliud OFC', true ],
-  [ '51936994155', 'Ayudante', true ],
-  [ '51904937048', 'eliud OFC', true ],
+  [ '51936994155', 'Whois', true ],
+  [ '51993800613', 'Mel', true ],
+  [ '51904937048', 'Gengar OFC', true ],
   ]
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -20,21 +20,21 @@ global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `[ 𝕯𝖎𝖉𝖎𝖊𝖗 𝕭𝖔𝖙 🤖 ]`
-global.author = '𝓓𝓲𝓭𝓲𝓮𝓻'
-global.stickpack = 'ᴅɪᴅɪᴇʀ ʙᴏᴛ ⚡'
-global.stickauth = 'ʙʏ ᴅɪᴅɪᴇʀ ᴏғғɪᴄɪᴀʟ'
-global.wm = '𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓'
-global.dev = '© 𝘿𝙞𝙙𝙞𝙚𝙧 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝙐𝙨𝙚𝙧'
-global.wait = '🌪️ *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇɴᴛᴏ... ฅ^•ﻌ•^ฅ\n\n> 𝖣𝗂𝖽𝗂𝖾𝗋 𝖡𝗈𝗍 𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅 🤖 🌪️*'
-global.botname = '[ 𝔻𝕚𝕕𝕚𝕖𝕣 𝔹𝕠𝕥 🛸 ]'
-global.textbot = `𝘽𝙮 𝘿𝙞𝙙𝙞𝙚𝙧 𝘽𝙤𝙩`
-global.dev = '• ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴅɪᴇʀ'
+global.packname = `[ Gengar Bot 🤖 ]`
+global.author = 'Whois'
+global.stickpack = 'Gengar Bot ⚡'
+global.stickauth = 'By Whois Developer'
+global.wm = 'Gengar Bot 🤖'
+global.dev = '© Whois Yallico '
+global.wait = '🌪️ *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇɴᴛᴏ... ฅ^•ﻌ•^ฅ\n\n> GENGAR BOT OFC🤖 🌪️*'
+global.botname = '[ Gengar Bot 🛸 ]'
+global.textbot = `By Whois 🚜`
+global.dev = '• Developer Whois'
 global.listo = '*Aqui tiene ฅ^•ﻌ•^ฅ*'
-global.namechannel = '𝓓𝓲𝓭𝓲𝓮𝓻 𝓑𝓸𝓽 𝓒𝓸𝓶𝓶𝓾𝓷𝓲𝓽𝔂'
+global.namechannel = 'Gengar Developer Whois'
 
 
-global.channel = 'https://whatsapp.com/channel/0029VbC5dkNG3R3dlVy9YZ3Z'
+global.channel = 'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -43,9 +43,9 @@ global.miniurl = fs.readFileSync('./storage/img/miniurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/Js6E0ZkSjJICm9NJ9lYjId'
-global.canal = 'https://whatsapp.com/channel/0029Vb6uvj47j6g4xZj7LO2x'
-global.insta = 'https://www.instagram.com/eliud.boss?igsh=OWhmNW1pYzgyYnZy'
+global.group = 'https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=gi_t'
+global.canal = 'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m'
+global.insta = 'https://www.instagram.com/whois.yallico'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
