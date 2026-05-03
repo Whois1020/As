@@ -7,5 +7,5 @@ handler.tags = ['grupo'];
 handler.command = ['gpdesc', 'groupdesc']
 handler.group = true;
 handler.admin = true;
-handler.botAdmin = false;
+handler.botAdmin = true;
 export default handler;
