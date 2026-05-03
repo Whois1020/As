@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       if (!img) {
         return conn.reply(m.chat,
 `╭╾━━━━╼ 〔 ❌ 〕 ╾━━━━╼╮
-┃  ⚡ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐄𝐑𝐑𝐎𝐑*
+┃  ⚡ *ERROR*
 ┃
 ┃ ❌ *Fallo al crear:*
 ┃    No se pudo procesar.
@@ -61,7 +61,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     } else {
       return conn.reply(m.chat,
 `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮
-┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒*
+┃  ✨ *𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒*
 ┃
 ┃ 📸 *Envía imagen o video*
 ┃      respondiendo a este msg.
