@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 
     default:
       if (!/[01]/.test(command)) return m.reply(`
-✨ 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 - 𝐂𝐄𝐍𝐓𝐑𝐎 𝐃𝐄 𝐂𝐎𝐍𝐓𝐑𝐎𝐋
+✨ Gengar Bot - Centro De Control 
 ──────────────────────
 ⚙️ *Ajustes de Sistema y Seguridad*
 
@@ -131,7 +131,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
   let scopeText = isAll ? 'ＴＯＤＯ ＥＬ ＢＯＴ' : isUser ? 'ＵＳＵＡＲＩＯ' : 'ＥＳＴＥ ＣＨＡＴ';
 
   let confirm = `
-✨ *𝐃 𝐈 𝐃 𝐈 Ｅ 𝐑  𝐁 Ｏ Ｔ* ✨
+✨ *G E N G A R   B O T* ✨
 ──────────────────────
 🚦 *ESTADO DE LA FUNCIÓN*
 
