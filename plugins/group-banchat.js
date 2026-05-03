@@ -8,7 +8,7 @@ let handler = async (m, { conn, isAdmin, isROwner }) => {
     mensaje += `│ 𝖤𝗌𝗍𝖾 𝖼𝗁𝖺𝗍 𝗁𝖺 𝗌𝗂𝖽𝗈 𝖻𝖺𝗇𝖾𝖺𝖽𝗈.\n`
     mensaje += `│ 𝖤𝗅 𝖻𝗈𝗍 𝗇𝗈 𝗋𝖾𝗌𝗉𝗈𝗇𝖽𝖾𝗋𝖺́ 𝗆𝖺́𝗌 𝖺𝗊𝗎𝗂́.\n`
     mensaje += `╰╾━━━━╼ 〔 🛸 〕 ╾━━━━╼╯\n`
-    mensaje += `*𝖡𝗒 𝖤𝗅𝗂𝗎𝖽 • 𝖵𝖺𝗇𝗌 𝖡𝗈𝗍*`
+    mensaje += `*𝖡𝗒 𝖤𝗅𝗂𝗎𝖽 • GENGAR 𝖡𝗈𝗍*`
 
     await conn.reply(m.chat, mensaje, m)
     await m.react('👟')
