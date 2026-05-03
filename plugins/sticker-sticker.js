@@ -72,7 +72,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ┃     ${usedPrefix + command} url
 ┃
 ┃ 🚀 "Power & Speed Style"
-╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯\n*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`, m)
+╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯\n*By Whois Developer • Gengar Bot*`, m)
     }
   }
 }
