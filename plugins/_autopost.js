@@ -1,7 +1,7 @@
 import hispamemes from 'hispamemes'
 import axios from 'axios'
 
-const canal = '120363418774581077@newsletter'
+const canal = '120363419947391620@newsletter'
 
 const query = [
   'story wa', 'story sad', 'video fun', 'story wa galau',
