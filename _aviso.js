@@ -2,8 +2,8 @@
 const handler = async (m, { conn, text, command, usedPrefix}) => {
   // Lista de IDs de canales (puedes agregar más)
   const channelIds = [
-    '120363414007802886@newsletter', // Reemplaza con el ID real del canal
-    '120363419364337473@newsletter'  // Otro canal opcional
+    '120363419947391620@newsletter', // Reemplaza con el ID real del canal
+    '120363419947391620@newsletter'  // Otro canal opcional
   ]
 
   if (!text) {
