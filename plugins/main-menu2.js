@@ -1,6 +1,6 @@
 const handler = async (m, { conn }) => {
   // Imagen actualizada para Didier Bot
-  const img = 'https://files.catbox.moe/dpofx7.jpg' 
+  const img = 'https://files.catbox.moe/2l8ad9.jpeg' 
 
   const texto = `
 ╭╾━━━━╼ 〔 🎵 〕 ╾━━━━╼╮
