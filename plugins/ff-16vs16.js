@@ -11,8 +11,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   
   // Puedes cambiar estas URLs por imágenes que prefieras para el mini-miniatura (vcard)
   const imagenes = [
-    "https://files.catbox.moe/1j784p.jpg",
-    "https://files.catbox.moe/xr2m6u.jpg"
+    "https://files.catbox.moe/2l8ad9.jpeg",
+    "https://files.catbox.moe/2l8ad9.jpeg"
   ]
 
   const titulo = encabezados[Math.floor(Math.random() * encabezados.length)]
