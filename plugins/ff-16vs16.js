@@ -48,7 +48,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ┃
 ┃ ⏳ *ʜᴏʀᴀʀɪᴏ:*
 ┃ 🇵🇪 Peru: ${args[0]}
-┃ 🇦🇷 Argentina: ${args[0]}
 ┃
 ┃ 🎮 *ᴍᴏᴅᴀʟɪᴅᴀᴅ:*
 ┃ 👥 *ᴊᴜɢᴀᴅᴏʀᴇs:*
