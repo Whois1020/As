@@ -15,10 +15,10 @@ const handler = async (m, { isPrems, conn }) => {
 
   const texto = `
 ╭╾━━━━╼ 〔 🎨 〕 ╾━━━━╼╮
-┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐃𝐈𝐒𝐄𝐍̃𝐎𝐒*
+┃  ✨ *Gengar Bot Logos*
 ┃
-┃  🚀 *𝐆𝐫𝐚𝐩𝐡𝐢𝐜 𝐒𝐲𝐬𝐭𝐞𝐦*
-┃  ⚡ *𝐁𝐲 𝐃𝐢𝐝𝐢𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬*
+┃  🚀 *GENGAR Systen*
+┃  ⚡ *Bye Whois Developer*
 ┃
 ┃  *ᴇsᴛɪʟᴏs ᴅᴇ ᴛᴇxᴛᴏ:*
 ┃  ◦ .logoneon
@@ -56,7 +56,7 @@ const handler = async (m, { isPrems, conn }) => {
 ┃  ◦ .logovideogaming
 ┃
 ╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯
-*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`.trim()
+*By Whois Developer • Gengar Bot*`.trim()
 
   await conn.sendMessage(m.chat, { image: { url: img }, caption: texto }, { quoted: m })
 
