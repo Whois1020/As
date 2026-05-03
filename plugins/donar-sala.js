@@ -7,11 +7,11 @@ function handler(m, { groupMetadata }) {
     do b = ps.getRandom()
     while (b === a)
 
-    m.reply(`✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓* ✨
+    m.reply(`✨ *Gengar Bot* ✨
 
 *${toM(a)},* ¡Busca la salita bebé que ya viene el VS! 🏁📌
 
-> 🚀 *By Didier Developers*`, null, {
+> 🚀 *By Whois Developer*`, null, {
         mentions: [a, b]
     })
 }
