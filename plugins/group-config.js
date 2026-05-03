@@ -29,6 +29,6 @@ handler.help = ['group abrir / cerrar'];
 handler.tags = ['grupo'];
 handler.command = /^(group|grupo)$/i;
 handler.admin = true;
-handler.botAdmin = false;
+handler.botAdmin = true;
 
 export default handler;
