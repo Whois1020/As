@@ -1,17 +1,17 @@
 import axios from 'axios'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-  if (!args[0]) throw `✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*\n\n⚠️ Por favor, ingresa el horario del reto.\n*Ejemplo:* ${usedPrefix + command} 9:00 PM`
+  if (!args[0]) throw `✨ *GENGAR BOT*\n\n⚠️ Por favor, ingresa el horario del reto.\n*Ejemplo:* ${usedPrefix + command} 9:00 PM`
 
   // Mensaje citado tipo Izumi con imagen y título aleatorio
   const titulos = [
-    "⚡ 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 | ELITE 20x20",
-    "🚀 DIDIER SYSTEM | GUERRA DE CLANES",
-    "✨ DIDIER DEVELOPERS | MAX BATTLE"
+    "⚡ GENGAR BOT| ELITE 20x20",
+    "🚀 GENGAR SYSTEM | GUERRA DE CLANES",
+    "✨ WHOIS DEVELOPER | MAX BATTLE"
   ]
   const imagenes = [
-    "https://files.catbox.moe/1j784p.jpg",
-    "https://files.catbox.moe/xr2m6u.jpg"
+    "https://files.catbox.moe/2l8ad9.jpeg",
+    "https://files.catbox.moe/2l8ad9.jpeg"
   ]
 
   const titulo = titulos[Math.floor(Math.random() * titulos.length)]
@@ -35,7 +35,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       orderMessage: {
         itemCount: 20,
         message: titulo,
-        footerText: "𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 • 𝐁𝐲 𝐃𝐢𝐝𝐢𝐞𝐫",
+        footerText: "GENGAR BOT • BY WHOIS",
         thumbnail: thumbBuffer,
         surface: 2,
         sellerJid: "0@s.whatsapp.net"
@@ -44,13 +44,12 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   }
 
   await conn.sendMessage(m.chat, {
-    image: { url: 'https://files.catbox.moe/1j784p.jpg'},
+    image: { url: 'https://files.catbox.moe/2l8ad9.jpeg'},
     caption: `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮
-┃  💢 *𝟐𝟎 𝐕𝐒 𝟐𝟎 | 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*
+┃  💢 *20 VS 20 - GENGAR BOT*
 ┃
 ┃ ⏳ *ʜᴏʀᴀʀɪᴏ:*
-┃ 🇲🇽 MÉXICO: ${args[0]}
-┃ 🇨🇴 COLOMBIA: ${args[0]}
+┃ 🇵🇪 PERÚ: ${args[0]}
 ┃
 ┃ 🎮 *ᴍᴏᴅᴀʟɪᴅᴀᴅ:*
 ┃ 👥 *ᴊᴜɢᴀᴅᴏʀᴇs:*
@@ -89,7 +88,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ┃   🥷🏻 • 
 ┃   🥷🏻 • 
 ╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯
-*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`,
+*By Whois Developers • Gengar Bot*`,
     mentions: []
   }, { quoted: izumi})
 }
