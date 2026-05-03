@@ -28,7 +28,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
   };
 
   let messageText = `╭╾━━━━╼ 〔 ⚡ 〕 ╾━━━━╼╮\n`;
-  messageText += `┃  ✨ *𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 𝐈𝐍𝐕𝐎𝐂𝐀𝐂𝐈𝐎́𝐍*\n`;
+  messageText += `┃  ✨ *Gengar Bot Invocación*\n`;
   messageText += `┃\n`;
   messageText += `┃ 🚀 *𝖦𝗋𝗎𝗉𝗈:* ${groupName}\n`;
   messageText += `┃ 👥 *𝖬𝗂𝖾𝗆𝖻𝗋𝗈𝗌:* ${participants.length}\n`;
@@ -44,10 +44,10 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
   }
 
   messageText += `┃\n╰╾━━━━╼ 〔 🚀 〕 ╾━━━━╼╯\n`;
-  messageText += `*By Didier Developers • 𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓*`;
+  messageText += `*By Whois Developers • Gengar Bot*`;
 
   // URL Actualizada según tu pedido
-  const imageUrl = 'https://files.catbox.moe/dpofx7.jpg';
+  const imageUrl = 'https://files.catbox.moe/2l8ad9.jpeg';
   const thumb = await (await fetch(imageUrl)).buffer();
 
   const fkontak = {
@@ -59,7 +59,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
     },
     message: {
       locationMessage: {
-        name: "𝐃𝐈𝐃𝐈𝐄𝐑 𝐁𝐎𝐓 ✨",
+        name: "Gengar Bot ✨",
         jpegThumbnail: thumb
       }
     }
